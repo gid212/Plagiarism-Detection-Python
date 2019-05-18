@@ -23,8 +23,8 @@ def printtable(h1, h2):
 		print('{0:11}{1:10d}{2:10d}'.format(i, h1[i], h2[i]))
 
 def main():
-	h1 = createList('1.txt')
-	h2 = createList('2.txt')
+	h1 = createMap('1.txt')
+	h2 = createMap('2.txt')
 	set1 = set(h1)
 	set2 = set(h2)
 
